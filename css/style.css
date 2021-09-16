@@ -1,0 +1,282 @@
+body {
+  background-color: #f4a9a8 !important;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar-toggler {
+  color: white !important;
+}
+.navbar {
+  background-color: #fbc6a4;
+}
+
+.navbar-nav {
+  padding: 1% 10%;
+}
+.navbar-nav li {
+  margin: 0 2rem;
+}
+.navbar-nav a {
+  color: white;
+  font-family: Lato;
+  font-size: 1.6rem !important;
+  font-weight: bolder;
+}
+
+.navbar {
+  padding: 5% 10%;
+}
+.navbar-brand {
+  font-family: Lobster, sans-serif;
+  font-size: 4.4rem !important;
+  font-style: italic;
+  /* text-decoration: underline !important; */
+}
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+.span1 {
+  color: #21bf73;
+}
+.span2 {
+  color: #f9fcfb;
+}
+.span3 {
+  color: #fd5e53;
+}
+.navbar-nav a:hover {
+  color: #f4a9a8 !important;
+  transform: scale(1.2);
+}
+/* Navbar */
+
+/* Title Grid  */
+
+h1 {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 3rem !important;
+  font-family: Playfair Display;
+  font-size: 2.5rem !important;
+  line-height: 1.5 !important;
+  color: #f9fcfb;
+}
+
+.img-container {
+  text-align: center;
+  padding: 1% 15%;
+  margin-top: 3rem;
+}
+.title-img {
+  height: 300px;
+  width: 400px;
+  border-radius: 15%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+@media screen and(max-width: 1024) {
+  .title-img {
+    position: static;
+  }
+}
+
+.menu-img {
+  height: 600px;
+  border-radius: 1.5rem;
+}
+
+.title-img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.img2 {
+  right: 30px;
+}
+.img3 {
+  bottom: 30px;
+}
+.img4 {
+  right: 30px;
+  bottom: 30px;
+}
+
+/* Title Grid  */
+
+/* Social media icons in title */
+.socials {
+  padding: 5% 10%;
+}
+.social-icon {
+  margin: 1rem 1.5rem;
+  color: #f9fcfb;
+}
+
+h3 {
+  color: #f9fcfb;
+}
+.face {
+  color: #1877f2;
+}
+.insta {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.mail {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+/* Social media icons in title */
+
+/* Reservation Section */
+h3 {
+  color: black;
+}
+#reservation {
+  font-family: Playfair Display;
+  background-color: #fbc6a4;
+}
+.pricing-col {
+  padding: 3% 7%;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #f4a9a8;
+}
+.card {
+  margin: 0 2rem !important;
+  border: none !important;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+
+/* Reservation Section */
+
+/* feedback section */
+
+#feedback {
+  font-family: Playfair Display;
+  background-color: white;
+}
+
+.feed-img {
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block !important;
+}
+
+.fa-star {
+  display: inline-block !important;
+  color: yellow;
+}
+
+.star-div {
+  margin: 1rem 0;
+}
+.feed-col {
+  text-align: center;
+  padding: 0 2% !important;
+  border: 2px solid #fbc6a4;
+  border-radius: 1.5rem;
+  margin: 5rem auto;
+}
+.feed-row {
+  padding: 3% 6%;
+  text-align: center;
+}
+.feed-cont {
+  text-align: center !important;
+  background-color: #f4a9a8;
+}
+
+.feed-col p {
+  padding: 10px 0;
+  line-height: 2;
+}
+.feed-img {
+  margin: 1rem 0;
+}
+/* feedback section */
+
+/* footer section */
+#footer {
+  background-color: #fbc6a4;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+.social-icons {
+  margin: 0 1rem;
+}
+
+.instas {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.mails {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* footer section */
